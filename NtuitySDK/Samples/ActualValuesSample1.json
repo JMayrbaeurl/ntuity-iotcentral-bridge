@@ -1,0 +1,57 @@
+{
+  "power_consumption": {
+    "value": null,
+    "time": "2021-11-29T22:24:45.0040000Z"
+  },
+  "power_consumption_calc": {
+    "value": 596.75,
+    "time": "2021-12-01T08:09:55.0010000Z"
+  },
+  "power_production": {
+    "value": 108.75,
+    "time": "2021-12-01T08:09:55.0010000Z"
+  },
+  "power_storage": {
+    "value": 0,
+    "time": "2021-12-01T08:08:30.0040000Z"
+  },
+  "power_grid": {
+    "value": 488,
+    "time": "2021-12-01T08:09:55.0010000Z"
+  },
+  "power_charging_stations": {
+    "value": null,
+    "time": "2021-12-01T06:49:40.0030000Z"
+  },
+  "power_heating": {
+    "value": null,
+    "time": "2021-11-29T22:24:45.0040000Z"
+  },
+  "power_appliances": {
+    "value": null,
+    "time": "2021-12-01T06:49:40.0030000Z"
+  },
+  "state_of_charge": {
+    "value": 9,
+    "time": "2021-12-01T07:55:45.0050000Z"
+  },
+  "self_sufficiency": {
+    "value": 18,
+    "time": "2021-12-01T08:09:35.0010000Z"
+  },
+  "max_network_utilization": 26000,
+  "consumers_total_count": 1,
+  "consumers_online_count": 0,
+  "producers_total_count": 2,
+  "producers_online_count": 2,
+  "storages_total_count": 1,
+  "storages_online_count": 1,
+  "heatings_total_count": 0,
+  "heatings_online_count": 0,
+  "charging_points_total_count": 1,
+  "charging_points_online_count": 0,
+  "grids_total_count": 1,
+  "grids_online_count": 1,
+  "_eventtype": "Telemetry",
+  "_timestamp": "2021-12-01T08:10:03.535Z"
+}

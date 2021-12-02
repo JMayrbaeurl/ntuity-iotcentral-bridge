@@ -1,0 +1,240 @@
+[
+  {
+    "@id": "dtmi:ntuity:api;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:ntuity:api:state_of_charge;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Charge state"
+        },
+        "name": "state_of_charge",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:ts;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Timestamp"
+        },
+        "name": "ts",
+        "schema": "dateTime"
+      },
+      {
+        "@id": "dtmi:ntuity:api:power_consumption_calc;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Calculated Power consumption"
+        },
+        "name": "power_consumption_calc",
+        "schema": "double",
+        "unit":  "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:power_production;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power production"
+        },
+        "name": "power_production",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:power_storage;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power storage"
+        },
+        "name": "power_storage",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:power_grid;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power grid"
+        },
+        "name": "power_grid",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:self_sufficiency;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Self sufficiency"
+        },
+        "name": "self_sufficiency",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:max_network_utilization;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Max network utilization"
+        },
+        "name": "max_network_utilization",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:consumers_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of consumers"
+        },
+        "name": "consumers_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:consumers_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online consumers count"
+        },
+        "name": "consumers_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:producers_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of producers"
+        },
+        "name": "producers_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:producers_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online producers count"
+        },
+        "name": "producers_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:storages_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of storages"
+        },
+        "name": "storages_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:storages_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online storages count"
+        },
+        "name": "storages_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:heatings_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of heatings"
+        },
+        "name": "heatings_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:heatings_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online heatings count"
+        },
+        "name": "heatings_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:charging_points_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of charging points"
+        },
+        "name": "charging_points_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:charging_points_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online charging points count"
+        },
+        "name": "charging_points_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:grids_total_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total count of grids"
+        },
+        "name": "grids_total_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:grids_online_count;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Online grid points count"
+        },
+        "name": "grids_online_count",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:ntuity:api:powerconsumption;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power consumption"
+        },
+        "name": "powerconsumption",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:powerchargingstations;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power of charging stations"
+        },
+        "name": "powerchargingstations",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:powerheating;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power of heating"
+        },
+        "name": "powerheating",
+        "schema": "double",
+        "unit": "watt"
+      },
+      {
+        "@id": "dtmi:ntuity:api:powerappliances;1",
+        "@type": [ "Telemetry", "Power" ],
+        "displayName": {
+          "en": "Power of appliances"
+        },
+        "name": "powerappliances",
+        "schema": "double",
+        "unit": "watt"
+      }
+    ],
+    "displayName": {
+      "en": "Ntuity API Model"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]
